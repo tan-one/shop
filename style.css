@@ -65,39 +65,39 @@
 
 }
 
-.card_sale {
-
-    width: 360px;
+.img_sale {
+    position: absolute;
 
 
 }
 
 .text_sale {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/man.png);
-
-    height: 260px;
-
-    background-repeat: no-repeat;
-
+    padding: 110px;
+    position: relative;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-
 }
-
-.card {
-    display: flex;
-    padding-top: 65px;
-    padding-left: 30px;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 .link_sale {
     text-decoration: none;
+}
+
+.color_text {
+    color: #F16D7F;
+    font-size: 25px;
+    margin-left: -15px;
+}
+
+.sale_card {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 65px;
+    flex-wrap: wrap;
+
 }
